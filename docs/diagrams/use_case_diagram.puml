@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam shadowing false
+title Diagrama de casos de uso de AutomatasPaint
+actor Usuario
+rectangle AutomatasPaint {
+  usecase "Definir alfabeto\ny estados" as UC1
+  usecase "Elegir AFD o AFN" as UC2
+  usecase "Editar tabla de\ntransiciones" as UC3
+  usecase "Visualizar automata\nen el lienzo" as UC4
+  usecase "Convertir AFN a AFD" as UC5
+  usecase "Ingresar y evaluar\ncadena" as UC6
+  usecase "Ver recorrido y\nresultado" as UC7
+  usecase "Exportar diagrama" as UC8
+}
+Usuario --> UC1
+Usuario --> UC2
+Usuario --> UC3
+Usuario --> UC5
+Usuario --> UC6
+Usuario --> UC8
+UC3 ..> UC4 : incluye
+UC6 ..> UC7 : incluye
+UC5 ..> UC4 : actualiza
+@enduml

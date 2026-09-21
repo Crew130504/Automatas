@@ -23,5 +23,5 @@ python main.py
 - `main.py`: punto de entrada.
 - `src/model.py`: modelo, validacion, simulacion y conversion AFN a AFD.
 - `src/gui.py`: interfaz de escritorio y lienzo.
-- `docs/diagrams`: fuentes PlantUML y sus imagenes PNG.
+- `docs/diagrams`: imagenes PNG de los diagramas de clases y casos de uso.
 - `output/pdf/informe_automataspaint.pdf`: informe tecnico.

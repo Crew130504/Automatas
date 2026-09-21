@@ -24,4 +24,4 @@ python main.py
 - `src/model.py`: modelo, validacion, simulacion y conversion AFN a AFD.
 - `src/gui.py`: interfaz de escritorio y lienzo.
 - `docs/diagrams`: imagenes PNG de los diagramas de clases y casos de uso.
-- `output/pdf/informe_automataspaint.pdf`: informe tecnico.
+- `docs/diagrams/informe_automataspaint.pdf`: informe tecnico.
